@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEDFBD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="Library App using android"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our project provides a user friendly interface which allows the user to view available books in the library.We have considered Android as our operating system.Because it is a powerful open Source that also runs on smart phones and Tablets.we use SQLite Database is embedded with in it.The first step is when user downloads the app from the Google play store and the application will appear on their android device the users will also be able to check the availability of the books.The admin has all permissions to add the new user and add new books.The main advantage of the application is to make it easier to access.The library system using smartphones"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#51507c"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library app is mobile app designed and developed for the use of staff.The Mca staff can use login credentials to login mobile app.keeping into mind that Library app enables the quick view of essential information such as – issued books,to check the availability books in library,list the books for particular Mca department,it also helps to search the books in the library by using book title."
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#51507c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instead of going library directly we check in app only."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="#51507c"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By:Shruthi P"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:textStyle="normal|italic"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vineetha"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:textStyle="normal|italic"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

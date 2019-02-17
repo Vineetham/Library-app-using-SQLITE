@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#CEDFBD"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:text="List of Bookid and Accno"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="@color/clr"/>
+    <View style="@style/dividerHorizontal"/>
+
+    <ListView
+        android:id="@+id/listresbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:textColor="#000000"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#CEDFBD"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:text= "Book Return"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="@color/clr"/>
+    <View style="@style/dividerHorizontal"/>
+    <Spinner
+        android:id="@+id/spnRId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="20"
+        android:entries="@array/staffid"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/edtreturnaccno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter accno"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/edtbookdate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Date of Return">
+    </EditText>
+    <Button
+        android:id="@+id/btnReturnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Submit Return"/>
+    <Button
+        android:id="@+id/btnbookclear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Clear" />
+
+
+    <TextView
+        android:id="@+id/tvvvvvvvvvvvv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#273127"/>
+</LinearLayout>

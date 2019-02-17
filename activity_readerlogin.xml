@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+
+        android:background="@drawable/person" >
+
+    </ImageView>
+
+    <Spinner
+        android:id="@+id/spnRName"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="180dp"
+
+        android:ems="20"
+
+        android:entries="@array/staff"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/edtRID"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="25dp"
+
+
+        android:ems="20"
+        android:hint="Enter ID"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnRLogin"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="80dp"
+
+        android:background="@drawable/rounded_button"
+
+        android:text="LOGIN"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <!--<Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Submit" />-->
+
+    <ListView
+        android:id="@+id/listBorrower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000">
+    </ListView>
+
+</LinearLayout>

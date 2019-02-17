@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#CEDFBD"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/llnewBook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="420dp"
+            android:layout_height="80dp"
+            android:text="Add New Faculty"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/clr"/>
+        <View style="@style/dividerHorizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="Name :"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="Email-Id:"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <EditText
+            android:id="@+id/edtemailid"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="Zip :"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtZip"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="State :"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spState"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:textColor="#000000"
+            android:entries="@array/states"/>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="Phone :"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Faculty"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Clear"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
